@@ -1,0 +1,39 @@
+{
+  "name": "eslint-config-nicerme",
+  "version": "0.0.1",
+  "description": "hi ho hello",
+  "keywords": [
+    "eslint",
+    "eslint-config",
+    "prettier",
+    "prettier-config"
+  ],
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "prettier.js",
+    "prettier.config.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nicerme/eslint-config-nicerme"
+  },
+  "scripts": {
+    "start": "cd example && npm start",
+    "test": "(cd example && npm run lint && npm t)"
+  },
+  "author": "Michał Nicer",
+  "license": "MIT",
+  "homepage": "https://github.com/nicerme/eslint-config-nicerme#readme",
+  "peerDependencies": {
+    "babel-eslint": ">=10.0.1 <11",
+    "eslint": ">= 5.16.0 <6",
+    "eslint-config-airbnb": ">= 17.1.0 <18",
+    "eslint-config-prettier": ">=4.1.0 <5",
+    "eslint-plugin-import": ">=2.16.0 <3",
+    "eslint-plugin-jsx-a11y": ">=6.2.1 <7",
+    "eslint-plugin-prettier": ">= 3.0.1 <8",
+    "eslint-plugin-react": ">= 7.12.4 <8",
+    "prettier": ">=1.16.4 <2"
+  }
+}
